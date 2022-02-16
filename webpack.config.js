@@ -39,7 +39,7 @@ const config = {
     ],
   },
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".ts", ".js", "json"],
   },
   devtool: 'source-map'
 };
