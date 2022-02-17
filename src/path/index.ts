@@ -17,8 +17,8 @@ export const svg_init = async () => {
   const svg = d3.select("#mainsvg");
   const width = +svg.attr("width");
   const height = +svg.attr("height");
-  const margin = { top: 100, right: 120, bottom: 100, left: 120 };
-  const innerWidth = width - margin.left - margin.right;
+  const margin = { top: 100, right: 200, bottom: 100, left: 200 };
+  const innerWidth = width - margin.left - margin.right
   const innerHeight = height - margin.top - margin.bottom;
   return {
     svg,

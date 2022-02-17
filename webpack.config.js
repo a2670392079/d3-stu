@@ -36,12 +36,16 @@ const config = {
           },
         ],
       },
+      {
+        test: /\.(css)$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   resolve: {
     extensions: [".ts", ".js", "json"],
   },
-  devtool: 'source-map'
+  devtool: "source-map",
 };
 
 module.exports = () => config;
